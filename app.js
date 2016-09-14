@@ -25,7 +25,7 @@ app.get('/aboutus', function(req, res){
 })
 
 app.get('/help', function(req, res){
-	res.send("This is help page!.");
+	res.send("This is help page!!!!.");
 })
 
 app.use(express.static(__dirname + "/public"));
